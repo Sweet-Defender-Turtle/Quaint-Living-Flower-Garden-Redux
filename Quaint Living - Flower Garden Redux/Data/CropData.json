@@ -1,0 +1,432 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"QLR Flower Crops",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+                "Entries": {
+					"QLR_BlackAmbrosiaBulb": {
+                        "Seasons": [ "fall" ],
+						"DaysInPhase": [ 1,1,2,2,1],
+						"HarvestItemId": "QLR_BlackAmbrosia",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 0
+                    },  
+                    "QLR_BlackPrinceSeeds": {
+                        "Seasons": [ "fall" ],
+						"DaysInPhase": [ 2,3,3,1,1],
+						"HarvestItemId": "QLR_BlackPrince",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 1
+                    }, 
+                    "QLR_BluemireBelleSeeds": {
+                        "Seasons": [ "spring" ],
+						"DaysInPhase": [ 1,1,2,2,2],
+						"HarvestItemId": "QLR_BluemireBelleRose",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 2
+                    },
+                    "QLR_BowlofCreamSeeds": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 1,1,1,3,1],
+                        "RegrowDays": 4,
+						"HarvestItemId": "QLR_BowlofCreamPeony",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                        "ExtraHarvestChance":  0.001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 4
+                    }, 
+                    "QLR_DraculaKissBulb": {
+                        "Seasons": [ "fall" ],
+						"DaysInPhase": [ 1,1,2,1,1],
+						"HarvestItemId": "QLR_DraculaKissIris",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 6
+                    }, 
+                    "QLR_FairyFlossBulb": {
+                        "Seasons": [ "summer", "fall" ],
+						"DaysInPhase": [ 1,1,2,1,1],
+						"HarvestItemId": "QLR_FairyFlossDahlia",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 7
+                    }, 
+                    "QLR_FairyIrisBulb": {
+                        "Seasons": [ "spring", "fall" ],
+						"DaysInPhase": [ 1,1,2,1],
+						"HarvestItemId": "QLR_FairyIris",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 8
+                    }, 
+                    "QLR_GemSeaBulb": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 1,1,1,2,1],
+						"HarvestItemId": "QLR_GemSeaIris",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 9
+                    }, 
+                    "QLR_GoldenBearSeeds": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 1,2,2,2,1],
+						"HarvestItemId": "QLR_GoldenBearS",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 10
+                    },
+                    "QLR_GoldenSplendorBulb": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 2,2,3,3,2],
+						"HarvestItemId": "QLR_GoldenSplendorLily",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                        "ExtraHarvestChance":  0.001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 11
+                    },
+                    "QLR_GreenRoseSeeds": {
+                        "Seasons": [ "fall" ],
+						"DaysInPhase": [ 1,1,2,2,2],
+						"HarvestItemId": "QLR_GreenRose",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 13
+                    },
+                    "QLR_GypsyCharmerSeeds": {
+                        "Seasons": [ "summer", "fall" ],
+						"DaysInPhase": [ 1,2,2,1,1],
+						"HarvestItemId": "QLR_GypsyCharmerS",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 15
+                    },
+                    "QLR_KingProteaSeeds": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 2,2,3,4,3],
+						"HarvestItemId": "QLR_KingProtea",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 16
+                    },
+                    "QLR_LittleTigerSeeds": {
+                        "Seasons": [ "summer", "fall" ],
+						"DaysInPhase": [ 1,2,2,2,1],
+						"HarvestItemId": "QLR_LittleTigerS",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.7,
+                        "ExtraHarvestChance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 18
+                    },
+                    "QLR_OsiriaRoseSeeds": {
+                        "Seasons": [ "fall" ],
+						"DaysInPhase": [ 2,3,4,3],
+						"HarvestItemId": "QLR_OsiriaRose",
+                        "HarvestMaxIncreasePerFarmingLevel": 1.2,
+                        "ExtraHarvestChance": 0.001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 19
+                    },
+                    "QLR_PeacockIrisBulb": {
+                        "Seasons": [ "winter" ],
+						"DaysInPhase": [ 1,1,1,1,1],
+						"HarvestItemId": "QLR_PeacockIris",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 20
+                    },
+                    "QLR_PearlTuberoseBulb": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 1,1,2,2,1],
+						"HarvestItemId": "QLR_PearlTuberose",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 21
+                    },
+                    "QLR_PinkDamaskSeeds": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 2,2,3,3,2],
+                        "RegrowDays": 5, 
+						"HarvestItemId": "QLR_PinkDamaskRose",
+                        "MinStack": 5,
+                        "MaxStack": 10,
+                        "HarvestMaxIncreasePerFarmingLevel": 1.0,
+                        "ExtraHarvestChance": 0.02,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 22
+                    },
+                    "QLR_PinkParfaitBulb": {
+                        "Seasons": [ "summer" ],
+						"DaysInPhase": [ 1,1,2,2,2],
+						"HarvestItemId": "QLR_PinkParfaitIris",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 23
+                    },
+                    "QLR_PomponellaSeeds": {
+                        "Seasons": [ "spring","summer"],
+						"DaysInPhase": [ 3,4,4,4,5],
+                        "RegrowDays": 10,
+                        "IsRaised": true,
+						"HarvestItemId": "QLR_PomponellaRose",
+                        "MinStack": 10,
+                        "MaxStack": 12,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.7,
+                        "ExtraHarvestChance": 0.0001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 24
+                    },
+                    "QLR_QueenProteaSeeds": {
+                        "Seasons": [ "summer"],
+						"DaysInPhase": [ 2,2,2,3,3],
+						"HarvestItemId": "QLR_QueenProtea",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 26
+                    },
+                    "QLR_RainbowSorbetSeeds": {
+                        "Seasons": [ "summer"],
+						"DaysInPhase": [ 3,3,4,5,3],
+                        "RegrowDays": 4,
+						"HarvestItemId": "QLR_RainbowSorbetRose",
+                        "MinStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.7,
+                        "ExtraHarvestChance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 27
+                    },
+                    "QLR_RainbowTailSeeds": {
+                        "Seasons": [ "spring", "summer"],
+						"DaysInPhase": [ 1,2,1,1,1],
+						"HarvestItemId": "QLR_RainbowTail",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 28
+                    },
+                    "QLR_RegalLilyBulb": {
+                        "Seasons": [ "summer"],
+						"DaysInPhase": [ 1,3,2,2,1],
+						"HarvestItemId": "QLR_RegalLily",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.6,
+                        "ExtraHarvestChance": 0.001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 30
+                    },
+                    "QLR_RoccoDahliaBulb": {
+                        "Seasons": [ "summer", "fall"],
+						"DaysInPhase": [ 1,2,2,2,1],
+						"HarvestItemId": "QLR_RoccoDahlia",
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.4,
+                        "ExtraHarvestChance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 31
+                    },
+                    "QLR_SeagullDahliaBulb": {
+                        "Seasons": [ "summer"],
+						"DaysInPhase": [ 1,2,1,1],
+						"HarvestItemId": "QLR_SeagullDahlia",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 32
+                    },
+                    "QLR_StarburstSeeds": {
+                        "Seasons": [ "summer", "fall"],
+						"DaysInPhase": [ 1,2,2,3,3],
+						"HarvestItemId": "QLR_StarburstS",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 35
+                    },
+                    "QLR_SunrichLimeSeeds": {
+                        "Seasons": [ "summer", "fall"],
+						"DaysInPhase": [ 1,1,2,2,1],
+						"HarvestItemId": "QLR_SunrichLimeS",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 38
+                    },
+                    "QLR_SweetMusetteBulb": {
+                        "Seasons": [ "summer"],
+						"DaysInPhase": [ 1,1,1,2,1],
+						"HarvestItemId": "QLR_SweetMusetteIris",
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 39
+                    },
+                    "QLR_TeddyBearSeeds": {
+                        "Seasons": [ "summer", "fall"],
+						"DaysInPhase": [ 1,2,2,2,1],
+						"HarvestItemId": "QLR_TeddyBearS",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.8,
+                        "ExtraHarvestChance": 0.001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 40
+                    },
+                    "QLR_TigerLilyBulb": {
+                        "Seasons": [ "summer"],
+						"DaysInPhase": [ 1,2,3,3,1],
+						"HarvestItemId": "QLR_TigerLily",
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.6,
+                        "ExtraHarvestChance": 0.001,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+						"SpriteIndex": 41
+                    }
+                }   
+},
+{
+    "LogName":"QLR Flower Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "When": {
+		"Quaint Living 2 Compat": false
+		},
+        "Entries": {
+            "QLR_CrownImperialBulb": {
+                "Seasons": [ "spring" ],
+                "DaysInPhase": [ 1,1,2,2,2],
+                "HarvestItemId": "QLR_CrownImperialF",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 5
+            }, 
+            "QLR_GypsyBeautyBulb": {
+                "Seasons": [ "spring" ],
+                "DaysInPhase": [ 1,1,1,1,1],
+                "HarvestItemId": "QLR_GypsyBeautyIris",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 14
+            },
+            "QLR_QueenofBourbonsSeeds": {
+                "Seasons": [ "spring","summer"],
+                "DaysInPhase": [ 2,3,5,6,4],
+                "RegrowDays": 10,
+                "IsRaised": true,
+                "HarvestItemId": "QLR_QueenofBourbonsRose",
+                "MinStack": 1,
+                "MaxStack": 2,
+                "HarvestMaxIncreasePerFarmingLevel": 1,
+                "ExtraHarvestChance": 0.002,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 25
+            },
+            "QLR_SeashellPeonySeeds": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [ 1,1,1,2,2],
+                "RegrowDays": 4,
+                "HarvestItemId": "QLR_SeashellPeony",
+                "HarvestMaxIncreasePerFarmingLevel": 0.8,
+                "ExtraHarvestChance": 0.005,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 33
+            },
+            "QLR_StargazerLilyBulb": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [ 1,2,3,3,1],
+                "HarvestItemId": "QLR_StargazerLily",
+                "MinStack": 1,
+                "MaxStack": 2,
+                "HarvestMaxIncreasePerFarmingLevel": 0.6,
+                "ExtraHarvestChance": 0.001,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 36
+            },
+            "QLR_StripedSquillBulb": {
+                "Seasons": [ "spring", "winter"],
+                "DaysInPhase": [ 1,1,1,2,1,1],
+                "HarvestItemId": "QLR_StripedSquill",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 37
+            },
+            "QLR_WhiteGiantBulb": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [ 1,2,2,3,2],
+                "HarvestItemId": "QLR_WhiteGiantCallaLily",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 43
+            },
+            "QLR_WhiteJasmineSeeds": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [ 1,2,2,2,3],
+                "RegrowDays": 4,
+                "HarvestItemId": "QLR_WhiteJasmine",
+                "MinStack": 3,
+                "MaxStack": 4,
+                "HarvestMaxIncreasePerFarmingLevel": 0.8,
+                "ExtraHarvestChance": 0.08,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 44
+            }
+
+        }
+},
+{
+    "LogName":"QLR Flower Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "When": {
+			"Quaint Living 2 Compat Seasonal": false
+			},
+        "Entries": { 
+            "QLR_BoraBoraBulb": {
+                "Seasons": [ "summer" ],
+                "DaysInPhase": [ 1,2,2,2,1],
+                "HarvestItemId": "QLR_BoraBoraDahlia",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 3
+            },
+            "QLR_GotoroanIrisBulb": {
+                "Seasons": [ "summer", "fall" ],
+                "DaysInPhase": [ 1,1,2,2,1],
+                "HarvestItemId": "QLR_GotoroanIris",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 12
+            },
+            "QLR_LavenderSilkBulb": {
+                "Seasons": [ "spring"],
+                "DaysInPhase": [ 1,1,1,2,1],
+                "HarvestItemId": "QLR_LavenderSilkIris",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 17
+            },
+            "QLR_RedImperialSeeds": {
+                "Seasons": [ "summer", "fall"],
+                "DaysInPhase": [ 3,4,4,5,4],
+                "RegrowDays": 7,
+                "IsRaised": true,
+                "HarvestItemId": "QLR_RedImperialRose",
+                "MinStack": 2,
+                "MaxStack": 4,
+                "HarvestMaxIncreasePerFarmingLevel": 1.5,
+                "ExtraHarvestChance": 0.002,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 29
+            },
+            "QLR_SnowballRoseSeeds": {
+                "Seasons": [ "spring"],
+                "DaysInPhase": [ 2,3,3,4,3],
+                "HarvestItemId": "QLR_SnowballRose",
+                "MinStack": 1,
+                "MaxStack": 2,
+                "HarvestMaxIncreasePerFarmingLevel": 0.8,
+                "ExtraHarvestChance": 0.02,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 34
+            },
+            "QLR_TinyBeeBulb": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [ 1,2,2,2,1],
+                "HarvestItemId": "QLR_TinyBeeLily",
+                "MinStack": 2,
+                "MaxStack": 4,
+                "HarvestMaxIncreasePerFarmingLevel": 0.7,
+                "ExtraHarvestChance": 0.01,
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 42
+            }
+
+        }
+    }
+
+]
+}

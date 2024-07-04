@@ -1,0 +1,157 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_TeddyBearSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_TeddyBearSeeds",
+									"ItemId": "(O)QLR_TeddyBearSeeds",
+									"MinStack": 1,
+									"MaxStack": 2,
+									"PerItemCondition": "RANDOM 0.25"
+								},
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_LittleTigerSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_LittleTigerSeeds",
+									"ItemId": "(O)QLR_LittleTigerSeeds",
+									"MinStack": 1,
+									"MaxStack": 2,
+									"PerItemCondition": "RANDOM 0.25"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_GypsyCharmerSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_GypsyCharmerSeeds",
+									"ItemId": "(O)QLR_GypsyCharmerSeeds",
+									"MinStack": 1,
+									"MaxStack": 2,
+									"PerItemCondition": "RANDOM 0.25"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_BlackPrinceSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_BlackPrinceSeeds",
+									"ItemId": "(O)QLR_BlackPrinceSeeds",
+									"MinStack": 1,
+									"MaxStack": 2,
+									"PerItemCondition": "RANDOM 0.25"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_GoldenBearSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_GoldenBearSeeds",
+									"ItemId": "(O)QLR_GoldenBearSeeds",
+									"MinStack": 1,
+									"PerItemCondition": "RANDOM 0.5"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_StarburstSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_StarburstSeeds",
+									"ItemId": "(O)QLR_StarburstSeeds",
+									"MinStack": 1,
+									"MaxStack": 2,
+									"PerItemCondition": "RANDOM 0.25"
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"QLR_SunrichLimeSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "QLR_SunrichLimeSeeds",
+									"ItemId": "(O)QLR_SunrichLimeSeeds",
+									"MinStack": 1,
+									"MaxStack": 2,
+									"PerItemCondition": "RANDOM 0.5"
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+}

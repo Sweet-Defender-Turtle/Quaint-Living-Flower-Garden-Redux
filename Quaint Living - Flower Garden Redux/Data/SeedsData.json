@@ -1,0 +1,488 @@
+{
+    "Changes": [
+		{
+            "LogName":"QL - Seeds SpringObjects",
+		    "Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+//SEEDS
+	"QLR_BlackAmbrosiaBulb": {
+		"Name": "QLR_BlackAmbrosiaBulb",
+		"Displayname": "{{i18n:Ambrosia.seed.name}}",
+		"Description": "{{i18n:Ambrosia.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 35,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 1
+	},
+    "QLR_BlackPrinceSeeds": {
+		"Name": "QLR_BlackPrinceSeeds",
+		"Displayname": "{{i18n:BlackPrince.seed.name}}",
+		"Description": "{{i18n:BlackPrince.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 300,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 3
+	},
+    "QLR_BluemireBelleSeeds": {
+		"Name": "QLR_BluemireBelleSeeds",
+		"Displayname": "{{i18n:BluemireBelle.seed.name}}",
+		"Description": "{{i18n:BluemireBelle.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 100,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 5
+	},
+    "QLR_BowlofCreamSeeds": {
+		"Name": "QLR_BowlofCreamSeeds",
+		"Displayname": "{{i18n:BowlofCream.seed.name}}",
+		"Description": "{{i18n:BowlofCream.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 80,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 9
+	},
+    "QLR_DraculaKissBulb": {
+		"Name": "QLR_DraculaKissBulb",
+		"Displayname": "{{i18n:DraculaKiss.seed.name}}",
+		"Description": "{{i18n:DraculaKiss.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 50,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 13
+	},
+    "QLR_FairyFlossBulb": {
+		"Name": "QLR_FairyFlossBulb",
+		"Displayname": "{{i18n:FairyFloss.seed.name}}",
+		"Description": "{{i18n:FairyFloss.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 30,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 15
+	},
+    "QLR_FairyIrisBulb": {
+		"Name": "QLR_FairyIrisBulb",
+		"Displayname": "{{i18n:FairyIris.seed.name}}",
+		"Description": "{{i18n:FairyIris.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 50,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 17
+	},
+    "QLR_GemSeaBulb": {
+		"Name": "QLR_GemSeaBulb",
+		"Displayname": "{{i18n:GemSea.seed.name}}",
+		"Description": "{{i18n:GemSea.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 50,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 19
+	},
+    "QLR_GoldenBearSeeds": {
+		"Name": "QLR_GoldenBearSeeds",
+		"Displayname": "{{i18n:GoldenBear.seed.name}}",
+		"Description": "{{i18n:GoldenBear.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 300,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 21
+	},
+    "QLR_GoldenSplendorBulb": {
+		"Name": "QLR_GoldenSplendorBulb",
+		"Displayname": "{{i18n:GoldenSplendor.seed.name}}",
+		"Description": "{{i18n:GoldenSplendor.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 70,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 23
+	},
+    "QLR_GreenRoseSeeds": {
+		"Name": "QLR_GreenRoseSeeds",
+		"Displayname": "{{i18n:GreenRose.seed.name}}",
+		"Description": "{{i18n:GreenRose.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 80,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 27
+	},
+    "QLR_GypsyCharmerSeeds": {
+		"Name": "QLR_GypsyCharmerSeeds",
+		"Displayname": "{{i18n:GypsyCharmer.seed.name}}",
+		"Description": "{{i18n:GypsyCharmer.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 200,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 31
+	},
+    "QLR_KingProteaSeeds": {
+		"Name": "QLR_KingProteaSeeds",
+		"Displayname": "{{i18n:KingProtea.seed.name}}",
+		"Description": "{{i18n:KingProtea.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 150,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 33
+	},
+    "QLR_LittleTigerSeeds": {
+		"Name": "QLR_LittleTigerSeeds",
+		"Displayname": "{{i18n:LittleTiger.seed.name}}",
+		"Description": "{{i18n:LittleTiger.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 225,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 37
+	},
+    "QLR_OsiriaRoseSeeds": {
+		"Name": "QLR_OsiriaRoseSeeds",
+		"Displayname": "{{i18n:OsiriaRose.seed.name}}",
+		"Description": "{{i18n:OsiriaRose.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 600,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 39
+	},
+    "QLR_PeacockIrisBulb": {
+		"Name": "QLR_PeacockIrisBulb",
+		"Displayname": "{{i18n:PeacockIris.seed.name}}",
+		"Description": "{{i18n:PeacockIris.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 40,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 41
+	},
+    "QLR_PearlTuberoseBulb": {
+		"Name": "QLR_PearlTuberoseBulb",
+		"Displayname": "{{i18n:PearlTuberose.seed.name}}",
+		"Description": "{{i18n:PearlTuberose.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 30,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 43
+	},
+    "QLR_PinkDamaskSeeds": {
+		"Name": "QLR_PinkDamaskSeeds",
+		"Displayname": "{{i18n:PinkDamask.seed.name}}",
+		"Description": "{{i18n:PinkDamask.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 300,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 45
+	},
+    "QLR_PinkParfaitBulb": {
+		"Name": "QLR_PinkParfaitBulb",
+		"Displayname": "{{i18n:PinkParfait.seed.name}}",
+		"Description": "{{i18n:PinkParfait.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 60,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 47
+	},
+    "QLR_PomponellaSeeds": {
+		"Name": "QLR_PomponellaSeeds",
+		"Displayname": "{{i18n:Pomponella.seed.name}}",
+		"Description": "{{i18n:Pomponella.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 500,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 49
+	},
+    "QLR_QueenProteaSeeds": {
+		"Name": "QLR_QueenProteaSeeds",
+		"Displayname": "{{i18n:QueenProtea.seed.name}}",
+		"Description": "{{i18n:QueenProtea.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 150,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 53
+	},
+    "QLR_RainbowSorbetSeeds": {
+		"Name": "QLR_RainbowSorbetSeeds",
+		"Displayname": "{{i18n:RainbowSorbet.seed.name}}",
+		"Description": "{{i18n:RainbowSorbet.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 300,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 55
+	},
+    "QLR_RainbowTailSeeds": {
+		"Name": "QLR_RainbowTailSeeds",
+		"Displayname": "{{i18n:RainbowTail.seed.name}}",
+		"Description": "{{i18n:RainbowTail.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 45,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 57
+	},
+    "QLR_RegalLilyBulb": {
+		"Name": "QLR_RegalLilyBulb",
+		"Displayname": "{{i18n:RegalLily.seed.name}}",
+		"Description": "{{i18n:RegalLily.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 75,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 61
+	},
+    "QLR_RoccoDahliaBulb": {
+		"Name": "QLR_RoccoDahliaBulb",
+		"Displayname": "{{i18n:RoccoDahlia.seed.name}}",
+		"Description": "{{i18n:RoccoDahlia.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 30,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 63
+	},
+    "QLR_SeagullDahliaBulb": {
+		"Name": "QLR_SeagullDahliaBulb",
+		"Displayname": "{{i18n:SeagullDahlia.seed.name}}",
+		"Description": "{{i18n:SeagullDahlia.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 40,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 65
+	},
+	"QLR_StarburstSeeds": {
+		"Name": "QLR_StarburstSeeds",
+		"Displayname": "{{i18n:Starburst.seed.name}}",
+		"Description": "{{i18n:Starburst.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 250,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 71
+	},
+    "QLR_SunrichLimeSeeds": {
+		"Name": "QLR_SunrichLimeSeeds",
+		"Displayname": "{{i18n:SunrichLime.seed.name}}",
+		"Description": "{{i18n:SunrichLime.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 225,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 77
+	},
+    "QLR_SweetMusetteBulb": {
+		"Name": "QLR_SweetMusetteBulb",
+		"Displayname": "{{i18n:SweetMusette.seed.name}}",
+		"Description": "{{i18n:SweetMusette.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 55,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 79
+	},
+    "QLR_TeddyBearSeeds": {
+		"Name": "QLR_TeddyBearSeeds",
+		"Displayname": "{{i18n:TeddyBear.seed.name}}",
+		"Description": "{{i18n:TeddyBear.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 250,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 81
+	},
+    "QLR_TigerLilyBulb": {
+		"Name": "QLR_TigerLilyBulb",
+		"Displayname": "{{i18n:TigerLily.seed.name}}",
+		"Description": "{{i18n:TigerLily.seed.description}}",
+		"Type": "Seed",
+		"Category": -74,
+		"Price": 60,
+		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+		"SpriteIndex": 83
+	}
+	}
+
+},
+	//Adding Flowers that can be patched out
+	{
+		"LogName":"QLR - Flower SpringObjects",
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"When": {
+		"Quaint Living 2 Compat": false
+		},
+		"Entries": {
+			"QLR_CrownImperialBulb": {
+				"Name": "QLR_CrownImperialBulb",
+				"Displayname": "{{i18n:CrownImperial.seed.name}}",
+				"Description": "{{i18n:CrownImperial.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 40,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 11
+			},
+			"QLR_GypsyBeautyBulb": {
+				"Name": "QLR_GypsyBeautyBulb",
+				"Displayname": "{{i18n:GypsyBeauty.seed.name}}",
+				"Description": "{{i18n:GypsyBeauty.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 40,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 29
+			},
+			"QLR_QueenofBourbonsSeeds": {
+				"Name": "QLR_QueenofBourbonsSeeds",
+				"Displayname": "{{i18n:QueenofBourbons.seed.name}}",
+				"Description": "{{i18n:QueenofBourbons.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 800,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 51
+			},
+			"QLR_SeashellPeonySeeds": {
+				"Name": "QLR_SeashellPeonySeeds",
+				"Displayname": "{{i18n:SeashellPeony.seed.name}}",
+				"Description": "{{i18n:SeashellPeony.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 100,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 67
+			},
+			"QLR_StargazerLilyBulb": {
+				"Name": "QLR_StargazerLilyBulb",
+				"Displayname": "{{i18n:StargazerLily.seed.name}}",
+				"Description": "{{i18n:StargazerLily.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 60,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 73
+			},
+			"QLR_StripedSquillBulb": {
+				"Name": "QLR_StripedSquillBulb",
+				"Displayname": "{{i18n:StripedSquill.seed.name}}",
+				"Description": "{{i18n:StripedSquill.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 25,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 75
+			},
+			"QLR_WhiteGiantBulb": {
+				"Name": "QLR_WhiteGiantBulb",
+				"Displayname": "{{i18n:WhiteGiant.seed.name}}",
+				"Description": "{{i18n:WhiteGiant.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 80,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 87
+			},
+			"QLR_WhiteJasmineSeeds": {
+				"Name": "QLR_WhiteJasmineSeeds",
+				"Displayname": "{{i18n:WhiteJasmine.seed.name}}",
+				"Description": "{{i18n:WhiteJasmine.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 80,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 89
+				}
+		}
+	},
+	//Seasonal
+	{
+		"LogName":"QLR - Flower SpringObjects",
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"When": {
+		"Quaint Living 2 Compat Seasonal": false
+		},
+		"Entries": {
+			"QLR_BoraBoraBulb": {
+				"Name": "QLR_BoraBoraBulb",
+				"Displayname": "{{i18n:BoraBora.seed.name}}",
+				"Description": "{{i18n:BoraBora.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 35,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 7
+			},
+			"QLR_GotoroanIrisBulb": {
+				"Name": "QLR_GotoroanIrisBulb",
+				"Displayname": "{{i18n:GotoroanIris.seed.name}}",
+				"Description": "{{i18n:GotoroanIris.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 45,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 25
+			},
+			"QLR_LavenderSilkBulb": {
+				"Name": "QLR_LavenderSilkBulb",
+				"Displayname": "{{i18n:LavenderSilk.seed.name}}",
+				"Description": "{{i18n:LavenderSilk.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 50,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 35
+			},
+			"QLR_RedImperialSeeds": {
+				"Name": "QLR_RedImperialSeeds",
+				"Displayname": "{{i18n:RedImperial.seed.name}}",
+				"Description": "{{i18n:RedImperial.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 800,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 59
+			},
+			"QLR_SnowballRoseSeeds": {
+				"Name": "QLR_SnowballRoseSeeds",
+				"Displayname": "{{i18n:SnowballRose.seed.name}}",
+				"Description": "{{i18n:SnowballRose.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 150,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 69
+			},
+			"QLR_TinyBeeBulb": {
+				"Name": "QLR_TinyBeeBulb",
+				"Displayname": "{{i18n:TinyBee.seed.name}}",
+				"Description": "{{i18n:TinyBee.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 50,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 85
+			}
+		}
+	}
+
+	]
+}			
+			
+	
