@@ -22,3 +22,10 @@ If you encounter any problems or bugs go to the issues tab here or bug tab on Ne
 - Tweaking some of the code, especially gift tastes.
 - Adding more gift tastes for Modded NPCs(?)
 - Compatibility with Artisan Flower mods, more specifically converting Doragoun's Everlasting Flowers Quaint Living code to their 1.6 mod.
+
+## Permissions and Credits
+I would have never created (or uploaded) this mod if it wasn't for the wonderful PlatinumCats!
+
+None of these assets are mine, I just did the coding. So for obvious reason you are **NOT** allowed to use these assets without PlatinumCats permission.
+
+Any and all questions about doing anything (apart from dowloading and personal edits of course) with this mod _especially_ with regards to the assets should go to them.
