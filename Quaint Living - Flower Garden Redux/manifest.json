@@ -1,6 +1,6 @@
 {
    "Name": "Quaint Living - Flower Garden Redux",
-   "Author": "PlatinumCats",
+   "Author": "PlatinumCats and BeepBoop07",
    "Description": "Quaint Living - Flower Garden for 1.6",
    "Version": "1.0.0",
    "MinimumApiVersion": "4.0.0",
@@ -14,5 +14,5 @@
 			"IsRequired": true
 		}
 	],
-  "UpdateKeys": [ "Nexus:15107" ],
+  "UpdateKeys": [ "Nexus:15107", "GitHub: Sweet-Defender-Turtle/Quaint-Living-Flower-Garden-Redux" ],
 }
