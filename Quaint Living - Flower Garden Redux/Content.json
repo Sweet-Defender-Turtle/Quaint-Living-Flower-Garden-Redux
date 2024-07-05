@@ -37,25 +37,25 @@
                               "MarkActionApplied All PC.QL.FlowerGardenRedux_RepeatConfigFlags false",
                               "MarkActionApplied All PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags false",
                               "MarkActionApplied All PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags false",
-                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatEnabled all",
-                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalEnabled all",
+                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatDisabled all",
+                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalDisabled all",
               ]
           },
                   //Entries to set flags based on config
                   "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags": {
               "Id": "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags",
               "Trigger": "DayStarted",
-              "Condition": "{{Quaint Living 2 Compat}}",
+              "Condition": "{{Quaint Living 2 Compat}} false",
               "HostOnly": true,
-              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatEnabled received",
+              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatDisabled received",
               "Actions": null
           },
           "     PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags": {
               "Id": "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags",
               "Trigger": "DayStarted",
-              "Condition": "{{Quaint Living 2 Compat Seasonal}}",
+              "Condition": "{{Quaint Living 2 Compat Seasonal}} false",
               "HostOnly": true,
-              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalEnabled received",
+              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalDisabled received",
               "Actions": null
           },
                   "PC.QL.FlowerGardenRedux_RepeatConfigFlags": { 
