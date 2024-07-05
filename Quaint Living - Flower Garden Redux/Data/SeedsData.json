@@ -256,16 +256,6 @@
 		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
 		"SpriteIndex": 63
 	},
-    "QLR_SeagullDahliaBulb": {
-		"Name": "QLR_SeagullDahliaBulb",
-		"Displayname": "{{i18n:SeagullDahlia.seed.name}}",
-		"Description": "{{i18n:SeagullDahlia.seed.description}}",
-		"Type": "Seed",
-		"Category": -74,
-		"Price": 40,
-		"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
-		"SpriteIndex": 65
-	},
 	"QLR_StarburstSeeds": {
 		"Name": "QLR_StarburstSeeds",
 		"Displayname": "{{i18n:Starburst.seed.name}}",
@@ -357,6 +347,16 @@
 				"Price": 800,
 				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
 				"SpriteIndex": 51
+			},
+			"QLR_SeagullDahliaBulb": {
+				"Name": "QLR_SeagullDahliaBulb",
+				"Displayname": "{{i18n:SeagullDahlia.seed.name}}",
+				"Description": "{{i18n:SeagullDahlia.seed.description}}",
+				"Type": "Seed",
+				"Category": -74,
+				"Price": 40,
+				"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+				"SpriteIndex": 65
 			},
 			"QLR_SeashellPeonySeeds": {
 				"Name": "QLR_SeashellPeonySeeds",

@@ -416,22 +416,6 @@
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
 					"SpriteIndex": 62
 				},
-				"QLR_SeagullDahlia": {
-					"Name": "QLR_SeagullDahlia",
-					"Displayname": "{{i18n:SeagullDahlia.name}}",
-					"Description": "{{i18n:SeagullDahlia.description}}",
-					"Type": "Flower",
-					"Category":-80,
-					"Price": 70,
-                    "Edibility": 0,
-                    "ContextTags": [
-						"flower_item",
-						"color_yellow",
-						"season_summer",
-						"season_fall"],
-					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
-					"SpriteIndex": 64
-				},
 				"QLR_StarburstS": {
 					"Name": "QLR_StarburstS",
 					"Displayname": "{{i18n:Starburst.name}}",
@@ -586,6 +570,22 @@
 						"season_fall"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
 					"SpriteIndex": 50
+				},
+				"QLR_SeagullDahlia": {
+					"Name": "QLR_SeagullDahlia",
+					"Displayname": "{{i18n:SeagullDahlia.name}}",
+					"Description": "{{i18n:SeagullDahlia.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 70,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 64
 				},
 				"QLR_SeashellPeony": {
 					"Name": "QLR_SeashellPeony",
