@@ -1,0 +1,127 @@
+{
+	"Format": "2.0.1",
+   "ConfigSchema":
+{
+        "Quaint Living 2 Compat": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "A patch so you don't get duplicate flowers when playing with both QLF Redux and QLF 2."
+        },
+        "Quaint Living 2 Compat Seasonal":{
+            "AllowValues":"true, false",
+            "Default": "false",
+            "Description": "Removes flowers that are added by the Seasonal variants config in QLF 2, select both Quaint Living 2 Compat and this one to remove all duplicate flowers when playing with that config."
+        }
+     
+},
+  "Changes": [
+      {
+               "LogName": "QL Sprites Load",
+               "Action": "Load",
+               "Target": "Mods/PC.QL.FlowerGardenRedux/Crops, Mods/PC.QL.FlowerGardenRedux/GiantCrops, Mods/PC.QL.FlowerGardenRedux/Objects",
+               "FromFile": "assets/{{TargetWithoutPath}}.png"
+
+ },
+
+ //MAIL FLAGS
+ {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+          "PC.QL.FlowerGardenRedux_RemoveConfigFlags": { 
+              "Id": "PC.QL.FlowerGardenRedux_RemoveConfigFlags",
+              "Trigger": "DayStarted DayEnding", 
+              "HostOnly": true,
+              "Action": null,
+              "Actions": [
+                              "MarkActionApplied All PC.QL.FlowerGardenRedux_RepeatConfigFlags false",
+                              "MarkActionApplied All PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags false",
+                              "MarkActionApplied All PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags false",
+                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatEnabled all",
+                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalEnabled all",
+              ]
+          },
+                  //Entries to set flags based on config
+                  "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags": {
+              "Id": "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags",
+              "Trigger": "DayStarted",
+              "Condition": "{{Quaint Living 2 Compat}}",
+              "HostOnly": true,
+              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatEnabled received",
+              "Actions": null
+          },
+          "     PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags": {
+              "Id": "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags",
+              "Trigger": "DayStarted",
+              "Condition": "{{Quaint Living 2 Compat Seasonal}}",
+              "HostOnly": true,
+              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalEnabled received",
+              "Actions": null
+          },
+                  "PC.QL.FlowerGardenRedux_RepeatConfigFlags": { 
+              "Id": "PC.QL.FlowerGardenRedux_RepeatConfigFlags",
+              "Trigger": "DayStarted DayEnding", 
+              "HostOnly": true,
+              "Action": null,
+              "Actions": [
+                              "MarkActionApplied All PC.QL.FlowerGardenRedux_RemoveConfigFlags false"
+              ]
+          }
+      }
+  },
+ 
+
+
+//SPRING OBJECTS
+{
+      "LogName": "QL Flower Garden Redux - Seed Object Data",
+      "Action": "Include",
+      "FromFile": "Data/SeedsData.json"
+},
+
+{
+      "LogName": "QL Flower Garden Redux - Object Data",
+      "Action": "Include",
+      "FromFile": "Data/ObjectData.json"
+},
+
+//CROP DATA
+{
+      "LogName": "QL Flower Garden Redux - Crop Data",
+      "Action": "Include",
+      "FromFile": "Data/CropData.json"
+},
+{
+      "LogName": "QL Flower Garden Redux - Giant Crops",
+      "Action": "Include",
+      "FromFile": "Data/GiantCrops.json"
+},
+{
+      "LogName": "QL Flower Garden Redux - Multiyield Crops",
+      "Action": "Include",
+      "FromFile": "Data/multiyieldcrops.json"
+},
+
+//GIFT TASTES
+{
+      "LogName": "QL Flower Garden Redux - Vanilla NPC Gift Tastes",
+      "Action": "Include",
+      "FromFile": "Data/NPCGiftTastes.json"
+},
+
+//SHOP DATA
+{
+      "LogName": "QL Flower Garden Redux - Shop Data",
+      "Action": "Include",
+      "FromFile": "Data/ShopData.json"
+},
+
+//MACHINE DATA
+{
+      "LogName": "QL Flower Garden Redux - Machine Data",
+      "Action": "Include",
+      "FromFile": "Data/MachineData.json"
+}
+
+]
+}

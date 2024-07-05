@@ -1,18 +1,18 @@
 {
-   "Name": "Quaint Living - Flower Garden Redux",
-   "Author": "PlatinumCats and BeepBoop07",
-   "Description": "Quaint Living - Flower Garden for 1.6",
-   "Version": "1.0.0",
-   "MinimumApiVersion": "4.0.0",
-   "UniqueID": "PC.QL.FlowerGardenRedux",
-    "ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher"
-    },
-    "Dependencies": [
-		{
-			"UniqueID": "spacechase0.SpaceCore",
-			"IsRequired": true
-		}
-	],
-  "UpdateKeys": [ "GitHub: Sweet-Defender-Turtle/Quaint-Living-Flower-Garden-Redux" ],
+  "Name": "Quaint Living - Flower Garden Redux",
+  "Author": "PlatinumCats and BeepBoop07",
+  "Description": "Quaint Living - Flower Garden for 1.6",
+  "Version": "1.1.0",
+  "MinimumApiVersion": "4.0.0",
+  "UniqueID": "PC.QL.FlowerGardenRedux",
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+     "UniqueID": "spacechase0.SpaceCore",
+     "IsRequired": true
+   }
+ ],
+ "UpdateKeys": [ "GitHub: Sweet-Defender-Turtle/Quaint-Living-Flower-Garden-Redux" ],
 }

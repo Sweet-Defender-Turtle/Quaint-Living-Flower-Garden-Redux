@@ -223,13 +223,6 @@
 						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
 						"SpriteIndex": 31
                     },
-                    "QLR_SeagullDahliaBulb": {
-                        "Seasons": [ "summer"],
-						"DaysInPhase": [ 1,2,1,1],
-						"HarvestItemId": "QLR_SeagullDahlia",
-						"Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
-						"SpriteIndex": 32
-                    },
                     "QLR_StarburstSeeds": {
                         "Seasons": [ "summer", "fall"],
 						"DaysInPhase": [ 1,2,2,3,3],
@@ -309,6 +302,13 @@
                 "ExtraHarvestChance": 0.002,
                 "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
                 "SpriteIndex": 25
+            },
+            "QLR_SeagullDahliaBulb": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [ 1,2,1,1],
+                "HarvestItemId": "QLR_SeagullDahlia",
+                "Texture": "Mods/PC.QL.FlowerGardenRedux/Crops",
+                "SpriteIndex": 32
             },
             "QLR_SeashellPeonySeeds": {
                 "Seasons": [ "summer"],
