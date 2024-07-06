@@ -225,7 +225,7 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
-                    "Quaint Living 2 Compat": false
+                    "Enable Quaint Living 2 flowers": true
                     },
             "Entries": {
                 "QLR_CrownImperialBulb": {
@@ -292,7 +292,7 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "When": {
-                    "Quaint Living 2 Compat Seasonal": false
+                    "Enable Quaint Living 2 Seasonal Flowers": true
                     },
             "Entries": {
                 "QLR_BoraBoraBulb": {
@@ -389,7 +389,7 @@
     "Target": "Data/Shops",
     "TargetField": [ "SeedShop", "Items" ],
     "When": {
-            "Quaint Living 2 Compat": false
+            "Enable Quaint Living 2 flowers": true
             },
     "Entries": {
         "QLR_WhiteJasmineSeeds": {

@@ -2,15 +2,15 @@
 	"Format": "2.0.1",
    "ConfigSchema":
 {
-        "Quaint Living 2 Compat": {
+        "Enable Quaint Living 2 flowers": {
             "AllowValues": "true, false",
-            "Default": "false",
-            "Description": "A patch so you don't get duplicate flowers when playing with both QLF Redux and QLF 2."
+            "Default": "true",
+            "Description": "Adds the flowers also present in QLF 2, disable this so you don't end up with duplicates when playing both mods."
         },
-        "Quaint Living 2 Compat Seasonal":{
+        "Enable Quaint Living 2 Seasonal Flowers":{
             "AllowValues":"true, false",
-            "Default": "false",
-            "Description": "Removes flowers that are added by the Seasonal variants config in QLF 2, select both Quaint Living 2 Compat and this one to remove all duplicate flowers when playing with that config."
+            "Default": "true",
+            "Description": "Adds the flowers that are also added by the Seasonal variants config in QLF 2, deselect both Enable Quaint Living 2 flowers and this one to remove all duplicate flowers when playing with that config."
         }
      
 },
@@ -35,30 +35,30 @@
               "Action": null,
               "Actions": [
                               "MarkActionApplied All PC.QL.FlowerGardenRedux_RepeatConfigFlags false",
-                              "MarkActionApplied All PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags false",
-                              "MarkActionApplied All PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags false",
-                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatDisabled all",
-                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalDisabled all",
+                              "MarkActionApplied All PC.QL.FlowerGardenRedux_SetEnableQuaintLiving2flowersFlags false",
+                              "MarkActionApplied All PC.QL.FlowerGardenRedux_SetEnableQuaintLiving2SeasonalFlowersFlags false",
+                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2flowersEnabled all",
+                              "RemoveMail All PC.QL.FlowerGardenRedux_QuaintLiving2SeasonalFlowersEnabled all",
               ]
           },
                   //Entries to set flags based on config
-                  "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags": {
-              "Id": "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatFlags",
+            "PC.QL.FlowerGardenRedux_SetEnableQuaintLiving2flowersFlags": {
+              "Id": "PC.QL.FlowerGardenRedux_SetEnableQuaintLiving2flowersFlags",
               "Trigger": "DayStarted",
-              "Condition": "{{Quaint Living 2 Compat}} false",
+              "Condition": "{{Enable Quaint Living 2 flowers}}",
               "HostOnly": true,
-              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatDisabled received",
+              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2flowersEnabled received",
               "Actions": null
           },
-          "     PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags": {
-              "Id": "PC.QL.FlowerGardenRedux_SetQuaintLiving2CompatSeasonalFlags",
+            "PC.QL.FlowerGardenRedux_SetEnableQuaintLiving2SeasonalFlowersFlags": {
+              "Id": "PC.QL.FlowerGardenRedux_SetEnableQuaintLiving2SeasonalFlowersFlags",
               "Trigger": "DayStarted",
-              "Condition": "{{Quaint Living 2 Compat Seasonal}} false",
+              "Condition": "{{Enable Quaint Living 2 Seasonal Flowers}}",
               "HostOnly": true,
-              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2CompatSeasonalDisabled received",
+              "Action": "AddMail All PC.QL.FlowerGardenRedux_QuaintLiving2SeasonalFlowersEnabled received",
               "Actions": null
           },
-                  "PC.QL.FlowerGardenRedux_RepeatConfigFlags": { 
+            "PC.QL.FlowerGardenRedux_RepeatConfigFlags": { 
               "Id": "PC.QL.FlowerGardenRedux_RepeatConfigFlags",
               "Trigger": "DayStarted DayEnding", 
               "HostOnly": true,
