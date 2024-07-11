@@ -8,6 +8,13 @@
               "Action": "EditData",
               "Target": "Data/NPCGiftTastes",
               "TextOperations": [
+                  {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": "QLR_CrownImperialF",
+                    "Delimiter": " "
+                  },
+  
 //ABIGAIL
 //Love
                   {
@@ -16,6 +23,7 @@
                       "Value": "QLR_BlackAmbrosia QLR_DraculaKissIris QLR_PinkParfaitIris,",
                       "Delimiter": " "
                   },
+//Dislike
                   {
                         "Operation": "Append",
               "Target": ["Fields", "Abigail", 5],
@@ -121,13 +129,6 @@
                       "Value": "QLR_GoldenBearS QLR_OsiriaRose QLR_PinkDamaskRose QLR_SnowballRose",
                     "Delimiter": " "
                   },
-//Dislike
-                  {
-                      "Operation": "Append",
-                      "Target": ["Fields", "Evelyn", 5],
-                      "Value": "QLR_CrownImperialF",
-                    "Delimiter": " "
-                    },
 
 //GEORGE
 //Dislike
@@ -151,14 +152,7 @@
                         "Target": ["Fields", "Gus", 3],
                         "Value": "QLR_SunflowerOil",
                         "Delimiter": " "
-                    }, 
-  //Dislike
-                    {
-                        "Operation": "Append",
-                        "Target": ["Fields", "Gus", 5],
-                        "Value": "QLR_CrownImperialF",
-                      "Delimiter": " "
-                    },    
+                    },     
 
 //HALEY
 //Love
@@ -288,7 +282,7 @@
                   {
                       "Operation": "Append",
                       "Target": ["Fields", "Linus", 1],
-                      "Value": "QLR_GoldenBearS QLR_GoldenSplendorLily QLR_GreenRose QLR_KingProtea QLR_PearlTuberose QLR_PinkDamaskRose QLR_RegalLily QLR_RoccoDahlia QLR_SeagullDahlia QLR_StarburstS QLR_SunrichLimeS QLR_TeddyBearS QLR_TigerLily QLR_StargazerLily QLR_WhiteJasmine QLR_BoraBoraDahlia QLR_TinyBeeLily",
+                      "Value": "QLR_GoldenBearS QLR_GoldenSplendorLily QLR_GreenRose QLR_KingProtea QLR_PearlTuberose QLR_PinkDamaskRose QLR_RegalLily QLR_RoccoDahlia QLR_SeagullDahlia QLR_StarburstS QLR_SunrichLimeS QLR_TeddyBearS QLR_TigerLily QLR_StargazerLily QLR_WhiteJasmine QLR_BoraBoraDahlia QLR_TinyBeeLily QLR_StripedSquill",
                     "Delimiter": " "
                   },
 
@@ -304,7 +298,7 @@
                   {
                         "Operation": "Append",
                         "Target": ["Fields", "Marnie", 5],
-                        "Value": "QLR_DraculaKissIris QLR_PinkParfaitIris QLR_CrownImperialF",
+                        "Value": "QLR_DraculaKissIris QLR_PinkParfaitIris",
                         "Delimiter": " "
                     },
 
@@ -320,7 +314,7 @@
                   {
                       "Operation": "Append",
                       "Target": ["Fields", "Maru", 5],
-                      "Value": "QLR_CrownImperialF QLR_WhiteGiantCallaLily",
+                      "Value": "QLR_WhiteGiantCallaLily",
                     "Delimiter": " "
                   },
 
@@ -338,7 +332,7 @@
                       {
                             "Operation": "Append",
                             "Target": ["Fields", "Pam", 5],
-                            "Value": "QLR_CrownImperialF QLR_SnowballRose",
+                            "Value": "QLR_SnowballRose",
                           "Delimiter": ""
                         },
 
@@ -354,7 +348,7 @@
                   {
                         "Operation": "Append",
                         "Target": ["Fields", "Penny", 5],
-                        "Value": "QLR_GreenRose QLR_CrownImperialF",
+                        "Value": "QLR_GreenRose",
                         "Delimiter": " "
                     },
 
@@ -403,11 +397,18 @@
                       "Delimiter": " "
                     },  
 //SAM
+//Like
+                  {
+                        "Operation": "Append",
+                        "Target": ["Fields", "Sam", 3],
+                        "Value": "QLR_KingProtea QLR_PeacockIris QLR_StripedSquill QLR_WhiteGiantCallaLily",
+                      "Delimiter": " "
+                    },
 //Dislike
                   {
                       "Operation": "Append",
                       "Target": ["Fields", "Sam", 5],
-                      "Value": "QLR_BlackAmbrosia QLR_BlackPrince QLR_BluemireBelleRose QLR_BowlofCreamPeony QLR_DraculaKissIris QLR_FairyFlossDahlia QLR_FairyIris QLR_GemSeaIris QLR_GoldenBearS QLR_GoldenSplendorLily QLR_GreenRose QLR_GypsyCharmerS QLR_LittleTigerS QLR_OsiriaRose QLR_PearlTuberose QLR_PinkDamaskRose QLR_PinkParfaitIris QLR_PomponellaRose QLR_QueenProtea QLR_RainbowSorbetRose QLR_RainbowTail QLR_RegalLily QLR_RoccoDahlia QLR_SeagullDahlia QLR_StarburstS QLR_SunrichLimeS QLR_SweetMusetteIris QLR_TeddyBearS QLR_TigerLily QLR_GypsyBeautyIris QLR_QueenofBourbonsRose QLR_SeashellPeony QLR_StargazerLily QLR_WhiteJasmine QLR_BoraBoraDahlia QLR_GotoroanIris QLR_LavenderSilkIris QLR_RedImperialRose QLR_SnowballRose QLR_TinyBeeLily",
+                      "Value": "flower_item",
                     "Delimiter": " "
                   },
 //Hate
@@ -435,11 +436,20 @@
                         "Value": "QLR_DraculaKissIris QLR_PinkParfaitIris",
                         "Delimiter": " "
                 },
+
+
+//Like
+                  {
+                        "Operation": "Append",
+                        "Target": ["Fields", "Sebastian", 3],
+                        "Value": "iris_item QLR_KingProtea QLR_WhiteGiantCallaLily",
+                        "Delimiter": " "
+                },
 //Dislike
                   {
                       "Operation": "Append",
                       "Target": ["Fields", "Sebastian", 5],
-                      "Value": "QLR_BlackAmbrosia QLR_BlackPrince QLR_BluemireBelleRose QLR_BowlofCreamPeony QLR_FairyFlossDahlia QLR_FairyIris QLR_GemSeaIris QLR_GoldenBearS QLR_GoldenSplendorLily QLR_GreenRose QLR_GypsyCharmerS QLR_LittleTigerS QLR_OsiriaRose QLR_PearlTuberose QLR_PinkDamaskRose QLR_PomponellaRose QLR_QueenProtea QLR_RainbowSorbetRose QLR_RainbowTail QLR_RegalLily QLR_RoccoDahlia QLR_SeagullDahlia QLR_StarburstS QLR_SunrichLimeS QLR_TeddyBearS QLR_TigerLily QLR_CrownImperialF QLR_QueenofBourbonsRose QLR_SeashellPeony QLR_StargazerLily QLR_WhiteJasmine QLR_BoraBoraDahlia QLR_RedImperialRose QLR_SnowballRose QLR_TinyBeeLily",
+                      "Value": "flower_item QLR_GemSeaIris",
                     "Delimiter": " "
                   },
 
@@ -448,7 +458,7 @@
                   {
                       "Operation": "Append",
                       "Target": ["Fields", "Shane", 5],
-                      "Value": "QLR_BluemireBelleRose QLR_CrownImperialF QLR_WhiteGiantCallaLily",
+                      "Value": "QLR_BluemireBelleRose  QLR_WhiteGiantCallaLily",
                     "Delimiter": " "
                   },
 
@@ -469,11 +479,18 @@
                   },
 
 //WILLY
+//Like
+                  {
+                        "Operation": "Append",
+                        "Target": ["Fields", "Willy", 3],
+                        "Value": "QLR_PeacockIris",
+                      "Delimiter": " "
+                    },
 //Dislike
                   {
                       "Operation": "Append",
                       "Target": ["Fields", "Willy", 5],
-                      "Value": "QLR_BlackAmbrosia QLR_BlackPrince QLR_BluemireBelleRose QLR_BowlofCreamPeony QLR_DeluxeSunflowerOil QLR_DraculaKissIris QLR_FairyFlossDahlia QLR_FairyIris QLR_GemSeaIris QLR_GoldenBearS QLR_GoldenSplendorLily QLR_GreenRose QLR_GypsyCharmerS QLR_KingProtea QLR_LittleTigerS QLR_OsiriaRose QLR_PearlTuberose QLR_PinkDamaskRose QLR_PinkParfaitIris QLR_PomponellaRose QLR_QueenProtea QLR_RainbowSorbetRose QLR_RainbowTail QLR_RegalLily QLR_RoccoDahlia QLR_SeagullDahlia QLR_StarburstS QLR_SunflowerOil QLR_SunrichLimeS QLR_SweetMusetteIris QLR_TeddyBearS QLR_TigerLily QLR_CrownImperialF QLR_GypsyBeautyIris QLR_QueenofBourbonsRose QLR_SeashellPeony QLR_StargazerLily QLR_WhiteGiantCallaLily QLR_WhiteJasmine QLR_BoraBoraDahlia QLR_GotoroanIris QLR_LavenderSilkIris QLR_RedImperialRose QLR_SnowballRose QLR_TinyBeeLily",
+                      "Value": "flower_item QLR_DeluxeSunflowerOil QLR_SunflowerOil",
                     "Delimiter": " "
                   },
 

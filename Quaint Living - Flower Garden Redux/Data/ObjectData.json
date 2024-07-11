@@ -48,6 +48,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
                         "color_blue",
                         "season_spring"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -63,6 +64,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"peony_item",
                         "color_white",
                         "season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -91,6 +93,7 @@
                     "Edibility": -100,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
                         "color_black",
                         "season_fall"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -106,6 +109,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"dahlia_item",
                         "color_pink",
                         "season_summer",
                         "season_fall"],
@@ -122,6 +126,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_white",
 						"season_summer",
 						"season_spring"],
@@ -138,6 +143,7 @@
                     "Edibility": -50,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
                         "color_blue",
                         "season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -170,6 +176,7 @@
                     "Edibility":  0,
                     "ContextTags": [
 						"flower_item",
+						"lily_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -186,6 +193,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -254,6 +262,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -270,6 +279,7 @@
                     "Edibility": -60,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_white",
 						"season_winter"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -300,6 +310,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -316,6 +327,7 @@
                     "Edibility": -70,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_pink",
 						"season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -331,6 +343,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -362,6 +375,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -394,6 +408,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"lily_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -410,6 +425,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"dahlia_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -473,6 +489,7 @@
                     "Edibility": -45,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_pink",
 						"season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -505,6 +522,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"lily_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -550,6 +568,7 @@
                     "Edibility": -70,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_purple",
 						"season_spring"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -565,6 +584,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -581,6 +601,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"dahlia_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -597,6 +618,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"peony_item",
 						"color_pink",
 						"season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -612,6 +634,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"lily_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -644,6 +667,7 @@
                     "Edibility": -20,
                     "ContextTags": [
 						"flower_item",
+						"lily_item",
 						"color_white",
 						"season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -685,6 +709,7 @@
 					"Edibility": 0,
 					"ContextTags": [
 						"flower_item",
+						"dahlia_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],
@@ -701,6 +726,7 @@
                     "Edibility": -70,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_browm",
 						"season_summer"],
 					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
@@ -716,6 +742,7 @@
                     "Edibility": -70,
                     "ContextTags": [
 						"flower_item",
+						"iris_item",
 						"color_pink", 
 						"color_purple",
 						"season_spring"],
@@ -732,6 +759,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -748,6 +776,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"rose_item",
 						"color_green",
 						"season_summer",
 						"season_fall"],
@@ -764,6 +793,7 @@
                     "Edibility": 0,
                     "ContextTags": [
 						"flower_item",
+						"lily_item",
 						"color_yellow",
 						"season_summer",
 						"season_fall"],

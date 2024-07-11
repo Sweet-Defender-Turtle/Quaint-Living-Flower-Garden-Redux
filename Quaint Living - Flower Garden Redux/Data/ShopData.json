@@ -140,12 +140,6 @@
                     "Price": 30,
                     "Condition": "SEASON summer fall"
                 },
-                "QLR_SeagullDahliaBulb": {
-                    "Id": "QLR_SeagullDahliaBulb",
-                    "ItemId": "(O)QLR_SeagullDahliaBulb",
-                    "Price": 40,
-                    "Condition": "SEASON summer"
-                },
                 "QLR_StarburstSeeds": {
                     "Id": "QLR_StarburstSeeds",
                     "ItemId": "(O)QLR_StarburstSeeds",
@@ -245,6 +239,12 @@
                     "ItemId": "(O)QLR_QueenofBourbonsSeeds",
                     "Price": 800,
                     "Condition": "SEASON spring summer, YEAR 3"
+                },
+                "QLR_SeagullDahliaBulb": {
+                    "Id": "QLR_SeagullDahliaBulb",
+                    "ItemId": "(O)QLR_SeagullDahliaBulb",
+                    "Price": 40,
+                    "Condition": "SEASON summer"
                 },
                 "QLR_SeashellPeonySeeds": {
                     "Id": "QLR_SeashellPeonySeeds",
