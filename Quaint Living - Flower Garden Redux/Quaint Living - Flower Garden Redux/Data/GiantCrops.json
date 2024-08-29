@@ -1,0 +1,410 @@
+{
+    "Changes": [
+		{
+            "LogName":"QL Flower Crops",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+
+					"QLR_GiantBluemireBelle": {
+						"FromItemId": "(O)QLR_BluemireBelleRose",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_BluemireBelleRose",
+							"ItemId": "(O)QLR_BluemireBelleRose",
+							"MinStack": 14,
+							"MaxStack": 20
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_BluemireBelleSeeds",
+							"ItemId": "(O)QLR_BluemireBelleSeeds",
+							"MinStack": 2,
+							"MaxStack": 5
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 0,
+						  "Y": 0
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantGreenRose": {
+						"FromItemId": "(O)QLR_GreenRose",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_GreenRose",
+							"ItemId": "(O)QLR_GreenRose",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_GreenRoseSeeds",
+							"ItemId": "(O)QLR_GreenRoseSeeds",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 144,
+						  "Y": 0
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantLittleTigerS": {
+						"FromItemId": "(O)QLR_LittleTigerS",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_LittleTigerS",
+							"ItemId": "(O)QLR_LittleTigerS",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_LittleTigerSeeds",
+							"ItemId": "(O)QLR_LittleTigerSeeds",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 48,
+						  "Y": 64
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantTeddyBearS": {
+						"FromItemId": "(O)QLR_TeddyBearS",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_TeddyBearS",
+							"ItemId": "(O)QLR_TeddyBearS",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_TeddyBearSeeds",
+							"ItemId": "(O)QLR_TeddyBearSeeds",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 48,
+						  "Y": 128
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  }
+			}
+		},	
+		{
+            "LogName":"QL Flower Crops",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"When": {
+					"Enable Quaint Living 2 flowers": true
+					},
+			"Entries": {
+					  "QLR_GiantGypsyBeautyIris": {
+						"FromItemId": "(O)QLR_GypsyBeautyIris",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_GypsyBeautyIris",
+							"ItemId": "(O)QLR_GypsyBeautyIris",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_GypsyBeautyBulb",
+							"ItemId": "(O)QLR_GypsyBeautyBulb",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 192,
+						  "Y": 0
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantSeashellPeony": {
+						"FromItemId": "(O)QLR_SeashellPeony",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_SeashellPeony",
+							"ItemId": "(O)QLR_SeashellPeony",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_SeashellPeonySeeds",
+							"ItemId": "(O)QLR_SeashellPeonySeeds",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 144,
+						  "Y": 64
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantStargazerLily": {
+						"FromItemId": "(O)QLR_StargazerLily",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_StargazerLily",
+							"ItemId": "(O)QLR_StargazerLily",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_StargazerLilyBulb",
+							"ItemId": "(O)QLR_StargazerLilyBulb",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 192,
+						  "Y": 64
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantStripedSquill": {
+						"FromItemId": "(O)QLR_StripedSquill",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_StripedSquill",
+							"ItemId": "(O)QLR_StripedSquill",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_StripedSquillBulb",
+							"ItemId": "(O)QLR_StripedSquillBulb",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 0,
+						  "Y": 128
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  }
+			}
+		},	
+		{
+            "LogName":"QL Flower Crops",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"When": {
+			"Enable Quaint Living 2 Seasonal Flowers": true
+			},
+			"Entries": {
+            
+                      "QLR_GiantBoraBoraDahlia": {
+						"FromItemId": "(O)QLR_BoraBoraDahlia",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_BoraBoraDahlia",
+							"ItemId": "(O)QLR_BoraBoraDahlia",
+							"MinStack": 14,
+							"MaxStack": 20
+						  },
+						  {
+							"Chance": 0.5,
+							"Id": "QLR_BoraBoraBulb",
+							"ItemId": "(O)QLR_BoraBoraBulb",
+							"MinStack": 2,
+							"MaxStack": 5
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 48,
+						  "Y": 0
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+                      "QLR_GiantGotoroanIris": {
+						"FromItemId": "(O)QLR_GotoroanIris",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_GotoroanIris",
+							"ItemId": "(O)QLR_GotoroanIris",
+							"MinStack": 14,
+							"MaxStack": 19,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_GotoroanIrisBulb",
+							"ItemId": "(O)QLR_GotoroanIrisBulb",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 96,
+						  "Y": 0
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantLavenderSilkIris": {
+						"FromItemId": "(O)QLR_LavenderSilkIris",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_LavenderSilkIris",
+							"ItemId": "(O)QLR_LavenderSilkIris",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_LavenderSilkBulb",
+							"ItemId": "(O)QLR_LavenderSilkBulb",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 0,
+						  "Y": 64
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantRedImperialRose": {
+						"FromItemId": "(O)QLR_RedImperialRose",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_RedImperialRose",
+							"ItemId": "(O)QLR_RedImperialRose",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_RedImperialSeeds",
+							"ItemId": "(O)QLR_RedImperialSeeds",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 96,
+						  "Y": 64
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  },
+					  "QLR_GiantTinyBeeLily": {
+						"FromItemId": "(O)QLR_TinyBeeLily",
+						"HarvestItems": [
+						  {
+							"Chance": 1.0,
+							"Id": "QLR_TinyBeeLily",
+							"ItemId": "(O)QLR_TinyBeeLily",
+							"MinStack": 14,
+							"MaxStack": 20,
+						  },
+						  {
+							"Chance": 0.4,
+							"Id": "QLR_TinyBeeBulb",
+							"ItemId": "(O)QLR_TinyBeeBulb",
+							"MinStack": 2,
+							"MaxStack": 5,
+						  }
+					],
+						"Chance": 0.01,
+						"Texture": "Mods/PC.QL.FlowerGardenRedux/GiantCrops",
+						"TexturePosition": {
+						  "X": 96,
+						  "Y": 128
+						},
+						"TileSize": {
+						  "X": 3,
+						  "Y": 3
+						}
+					  }
+				}
+		}
+		]   				    
+}

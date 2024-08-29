@@ -1,0 +1,811 @@
+{
+    "Changes": [
+
+		{
+			"LogName":"QLR - Flower SpringObjects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"QLR_BlackAmbrosia": {
+					"Name": "QLR_BlackAmbrosia",
+					"Displayname": "{{i18n:Ambrosia.name}}",
+					"Description": "{{i18n:Ambrosia.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 65,
+                    "Edibility": 30,
+                    "ContextTags": [
+						"flower_item",
+						"edible_flower_item",
+						"color_yellow",
+						"season_summer",
+		                "season_fall" ],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 0
+				},
+                "QLR_BlackPrince": {
+					"Name": "QLR_BlackPrince",
+					"Displayname": "{{i18n:BlackPrince.name}}",
+					"Description": "{{i18n:BlackPrince.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 120,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+                        "color_black",
+                        "season_fall",
+                        "sunflower_deluxe" ],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 2
+				},
+                "QLR_BluemireBelleRose": {
+					"Name": "QLR_BluemireBelleRose",
+					"Displayname": "{{i18n:BluemireBelle.name}}",
+					"Description": "{{i18n:BluemireBelle.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 175,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+                        "color_blue",
+                        "season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 4
+				},
+                "QLR_BowlofCreamPeony": {
+					"Name": "QLR_BowlofCreamPeony",
+					"Displayname": "{{i18n:BowlofCream.name}}",
+					"Description": "{{i18n:BowlofCream.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 15,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"peony_item",
+                        "color_white",
+                        "season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 8
+				},
+                "QLR_DeluxeSunflowerOil": {
+					"Name": "QLR_DeluxeSunflowerOil",
+					"Displayname": "{{i18n:DeluxeSunflowerOil.name}}",
+					"Description": "{{i18n:DeluxeSunflowerOil.description}}",
+					"Type": "ArtisanGoods",
+					"Category":-26,
+					"Price": 200,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"color_yellow"
+					],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 112
+				},
+                "QLR_DraculaKissIris": {
+					"Name": "QLR_DraculaKissIris",
+					"Displayname": "{{i18n:DraculaKiss.name}}",
+					"Description": "{{i18n:DraculaKiss.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 80,
+                    "Edibility": -100,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+                        "color_black",
+                        "season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 12
+				},
+                "QLR_FairyFlossDahlia": {
+					"Name": "QLR_FairyFlossDahlia",
+					"Displayname": "{{i18n:FairyFloss.name}}",
+					"Description": "{{i18n:FairyFloss.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 55,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"dahlia_item",
+                        "color_pink",
+                        "season_summer",
+                        "season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 14
+				},
+				"QLR_FairyIris": {
+					"Name": "QLR_FairyIris",
+					"Displayname": "{{i18n:FairyIris.name}}",
+					"Description": "{{i18n:FairyIris.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 75,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_white",
+						"season_summer",
+						"season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 16
+				},
+                "QLR_GemSeaIris": {
+					"Name": "QLR_GemSeaIris",
+					"Displayname": "{{i18n:GemSea.name}}",
+					"Description": "{{i18n:GemSea.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 85,
+                    "Edibility": -50,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+                        "color_blue",
+                        "season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 18
+				},
+                "QLR_GoldenBearS": {
+					"Name": "QLR_GoldenBearS",
+					"Displayname": "{{i18n:GoldenBear.name}}",
+					"Description": "{{i18n:GoldenBear.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 100,
+                    "Edibility":  0,
+                    "ContextTags": [
+						"flower_item",
+                        "color_gold",
+                        "season_summer",
+                        "season_fall",
+                        "sunflower_deluxe"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 20
+				},
+				"QLR_GoldenSplendorLily": {
+					"Name": "QLR_GoldenSplendorLily",
+					"Displayname": "{{i18n:GoldenSplendor.name}}",
+					"Description": "{{i18n:GoldenSplendor.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 100,
+                    "Edibility":  0,
+                    "ContextTags": [
+						"flower_item",
+						"lily_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 22
+				},
+				"QLR_GreenRose": {
+					"Name": "QLR_GreenRose",
+					"Displayname": "{{i18n:GreenRose.name}}",
+					"Description": "{{i18n:GreenRose.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 100,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 26
+				},
+				"QLR_GypsyCharmerS": {
+					"Name": "QLR_GypsyCharmerS",
+					"Displayname": "{{i18n:GypsyCharmer.name}}",
+					"Description": "{{i18n:GypsyCharmer.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 75,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"color_orange",
+						"season_summer",
+						"season_fall",
+						"sunflower_base"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 30
+				},
+				"QLR_KingProtea": {
+					"Name": "QLR_KingProtea",
+					"Displayname": "{{i18n:KingProtea.name}}",
+					"Description": "{{i18n:KingProtea.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 300,
+                    "Edibility": -25,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 32
+				},
+				"QLR_LittleTigerS": {
+					"Name": "QLR_LittleTigerS",
+					"Displayname": "{{i18n:LittleTiger.name}}",
+					"Description": "{{i18n:LittleTiger.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 75,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"color_orange",
+						"season_summer",
+						"season_fall",
+						"sunflower_base"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 36
+				},
+				"QLR_OsiriaRose": {
+					"Name": "QLR_OsiriaRose",
+					"Displayname": "{{i18n:OsiriaRose.name}}",
+					"Description": "{{i18n:OsiriaRose.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 800,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 38
+				},
+				"QLR_PeacockIris": {
+					"Name": "QLR_PeacockIris",
+					"Displayname": "{{i18n:PeacockIris.name}}",
+					"Description": "{{i18n:PeacockIris.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 65,
+                    "Edibility": -60,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_white",
+						"season_winter"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 40
+				},
+				"QLR_PearlTuberose": {
+					"Name": "QLR_PearlTuberose",
+					"Displayname": "{{i18n:PearlTuberose.name}}",
+					"Description": "{{i18n:PearlTuberose.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 60,
+                    "Edibility": 20,
+                    "ContextTags": [
+						"flower_item",
+						"edible_flower_item",
+						"color_white",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 42
+				},
+				"QLR_PinkDamaskRose": {
+					"Name": "QLR_PinkDamaskRose",
+					"Displayname": "{{i18n:PinkDamask.name}}",
+					"Description": "{{i18n:PinkDamask.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 20,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 44
+				},
+				"QLR_PinkParfaitIris": {
+					"Name": "QLR_PinkParfaitIris",
+					"Displayname": "{{i18n:PinkParfait.name}}",
+					"Description": "{{i18n:PinkParfait.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 110,
+                    "Edibility": -70,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_pink",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 46
+				},
+				"QLR_PomponellaRose": {
+					"Name": "QLR_PomponellaRose",
+					"Displayname": "{{i18n:PomponellaRose.name}}",
+					"Description": "{{i18n:PomponellaRose.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 25,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 48
+				},
+				"QLR_QueenProtea": {
+					"Name": "QLR_QueenProtea",
+					"Displayname": "{{i18n:QueenProtea.name}}",
+					"Description": "{{i18n:QueenProtea.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 250,
+                    "Edibility": -25,
+                    "ContextTags": [
+						"flower_item",
+						"color_pink",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 52
+				},
+				"QLR_RainbowSorbetRose": {
+					"Name": "QLR_RainbowSorbetRose",
+					"Displayname": "{{i18n:RainbowSorbet.name}}",
+					"Description": "{{i18n:RainbowSorbet.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 100,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 54
+				},
+				"QLR_RainbowTail": {
+					"Name": "QLR_RainbowTail",
+					"Displayname": "{{i18n:RainbowTail.name}}",
+					"Description": "{{i18n:RainbowTail.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 80,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"season_summer",
+						"season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 56
+				},
+				"QLR_RegalLily": {
+					"Name": "QLR_RegalLily",
+					"Displayname": "{{i18n:RegalLily.name}}",
+					"Description": "{{i18n:RegalLily.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 80,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"lily_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 60
+				},
+				"QLR_RoccoDahlia": {
+					"Name": "QLR_RoccoDahlia",
+					"Displayname": "{{i18n:RoccoDahlia.name}}",
+					"Description": "{{i18n:RoccoDahlia.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 25,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"dahlia_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 62
+				},
+				"QLR_StarburstS": {
+					"Name": "QLR_StarburstS",
+					"Displayname": "{{i18n:Starburst.name}}",
+					"Description": "{{i18n:Starburst.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 100,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall",
+						"sunflower_deluxe"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 70
+				},
+				"QLR_SunflowerOil": {
+					"Name": "QLR_SunflowerOil",
+					"Displayname": "{{i18n:SunflowerOil.name}}",
+					"Description": "{{i18n:SunflowerOil.description}}",
+					"Type": "ArtisanGoods",
+					"Category":-26,
+					"Price": 150,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"color_yellow"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 113
+				},
+				"QLR_SunrichLimeS": {
+					"Name": "QLR_SunrichLimeS",
+					"Displayname": "{{i18n:SunrichLime.name}}",
+					"Description": "{{i18n:SunrichLime.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 85,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall",
+						"sunflower_base"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 76
+				},
+				"QLR_SweetMusetteIris": {
+					"Name": "QLR_SweetMusetteIris",
+					"Displayname": "{{i18n:SweetMusette.name}}",
+					"Description": "{{i18n:SweetMusette.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 85,
+                    "Edibility": -45,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_pink",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 78
+				},
+				"QLR_TeddyBearS": {
+					"Name": "QLR_TeddyBearS",
+					"Displayname": "{{i18n:TeddyBear.name}}",
+					"Description": "{{i18n:TeddyBear.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 85,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall",
+						"sunflower_base"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 80
+				},
+				"QLR_TigerLily": {
+					"Name": "QLR_TigerLily",
+					"Displayname": "{{i18n:TigerLily.name}}",
+					"Description": "{{i18n:TigerLily.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 75,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"lily_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 82
+				}
+
+			},
+				
+		},
+
+	//Adding Flowers that can be patched out
+		{
+		"LogName":"QLR - Flower SpringObjects",
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"When": {
+		"Enable Quaint Living 2 flowers": true
+		},
+		"Entries": {
+			"QLR_CrownImperialF": {
+					"Name": "QLR_CrownImperialF",
+					"Displayname": "{{i18n:CrownImperial.name}}",
+					"Description": "{{i18n:CrownImperial.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 85,
+                    "Edibility": -10,
+                    "ContextTags": [
+						"flower_item",
+                        "color_orange",
+                        "season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 10
+				},
+				"QLR_GypsyBeautyIris": {
+					"Name": "QLR_GypsyBeautyIris",
+					"Displayname": "{{i18n:GypsyBeauty.name}}",
+					"Description": "{{i18n:GypsyBeauty.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 70,
+                    "Edibility": -70,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_purple",
+						"season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 28
+				},
+				"QLR_QueenofBourbonsRose": {
+					"Name": "QLR_QueenofBourbonsRose",
+					"Displayname": "{{i18n:QueenofBourbons.name}}",
+					"Description": "{{i18n:QueenofBourbons.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 550,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 50
+				},
+				"QLR_SeagullDahlia": {
+					"Name": "QLR_SeagullDahlia",
+					"Displayname": "{{i18n:SeagullDahlia.name}}",
+					"Description": "{{i18n:SeagullDahlia.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 70,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"dahlia_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 64
+				},
+				"QLR_SeashellPeony": {
+					"Name": "QLR_SeashellPeony",
+					"Displayname": "{{i18n:SeashellPeony.name}}",
+					"Description": "{{i18n:SeashellPeony.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 40,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"peony_item",
+						"color_pink",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 66
+				},
+				"QLR_StargazerLily": {
+					"Name": "QLR_StargazerLily",
+					"Displayname": "{{i18n:StargazerLily.name}}",
+					"Description": "{{i18n:StargazerLily.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 75,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"lily_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 72
+				},
+			"QLR_StripedSquill": {
+					"Name": "QLR_StripedSquill",
+					"Displayname": "{{i18n:StripedSquill.name}}",
+					"Description": "{{i18n:StripedSquill.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 75,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"color_white",
+						"season_winter",
+						"season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 74
+				},	
+			"QLR_WhiteGiantCallaLily": {
+					"Name": "QLR_WhiteGiantCallaLily",
+					"Displayname": "{{i18n:WhiteGiant.name}}",
+					"Description": "{{i18n:WhiteGiant.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 175,
+                    "Edibility": -20,
+                    "ContextTags": [
+						"flower_item",
+						"lily_item",
+						"color_white",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 86
+				},
+				"QLR_WhiteJasmine": {
+					"Name": "QLR_WhiteJasmine",
+					"Displayname": "{{i18n:WhiteJasmine.name}}",
+					"Description": "{{i18n:WhiteJasmine.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 15,
+                    "Edibility": 5,
+                    "ContextTags": [
+						"flower_item",
+						"edible_flower_item",
+						"color_yellow",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 88
+				}
+			}
+		},
+		//Seasonal
+		{
+			"LogName":"QLR - Flower SpringObjects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+			"Enable Quaint Living 2 Seasonal Flowers": true
+			},
+			"Entries": {
+				"QLR_BoraBoraDahlia": {
+					"Name": "QLR_BoraBoraDahlia",
+					"Displayname": "{{i18n:BoraBora.name}}",
+					"Description": "{{i18n:BoraBora.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 45,
+					"Edibility": 0,
+					"ContextTags": [
+						"flower_item",
+						"dahlia_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 6
+				},
+				"QLR_GotoroanIris": {
+					"Name": "QLR_GotoroanIris",
+					"Displayname": "{{i18n:GotoroanIris.name}}",
+					"Description": "{{i18n:GotoroanIris.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 80,
+                    "Edibility": -70,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_browm",
+						"season_summer"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 24
+				},
+				"QLR_LavenderSilkIris": {
+					"Name": "QLR_LavenderSilkIris",
+					"Displayname": "{{i18n:LavenderSilk.name}}",
+					"Description": "{{i18n:LavenderSilk.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 85,
+                    "Edibility": -70,
+                    "ContextTags": [
+						"flower_item",
+						"iris_item",
+						"color_pink", 
+						"color_purple",
+						"season_spring"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 34
+				},
+				"QLR_RedImperialRose": {
+					"Name": "QLR_RedImperialRose",
+					"Displayname": "{{i18n:RedImperial.name}}",
+					"Description": "{{i18n:RedImperial.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 200,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 58
+				},
+				"QLR_SnowballRose": {
+					"Name": "QLR_SnowballRose",
+					"Displayname": "{{i18n:SnowballRose.name}}",
+					"Description": "{{i18n:SnowballRose.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 300,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"rose_item",
+						"color_green",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 68
+				},
+				"QLR_TinyBeeLily": {
+					"Name": "QLR_TinyBeeLily",
+					"Displayname": "{{i18n:TinyBee.name}}",
+					"Description": "{{i18n:TinyBee.description}}",
+					"Type": "Flower",
+					"Category":-80,
+					"Price": 30,
+                    "Edibility": 0,
+                    "ContextTags": [
+						"flower_item",
+						"lily_item",
+						"color_yellow",
+						"season_summer",
+						"season_fall"],
+					"Texture": "Mods/PC.QL.FlowerGardenRedux/Objects",
+					"SpriteIndex": 84
+				}
+			}
+		}			
+
+	]
+}

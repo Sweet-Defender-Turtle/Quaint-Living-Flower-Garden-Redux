@@ -1,0 +1,409 @@
+{
+   
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+
+//FLOWER CROPS
+                "QLR_BlackAmbrosiaBulb": {
+                    "Id": "QLR_BlackAmbrosiaBulb",
+                    "ItemId": "(O)QLR_BlackAmbrosiaBulb",
+                    "Price": 35,
+                    "Condition": "SEASON fall"
+                },
+                "QLR_BlackPrinceSeeds": {
+                    "Id": "QLR_BlackPrinceSeeds",
+                    "ItemId": "(O)QLR_BlackPrinceSeeds",
+                    "Price": 300,
+                    "Condition": "SEASON fall, YEAR 2"
+                },
+                "QLR_BluemireBelleSeeds": {
+                    "Id": "QLR_BluemireBelleSeeds",
+                    "ItemId": "(O)QLR_BluemireBelleSeeds",
+                    "Price": 100,
+                    "Condition": "SEASON spring, PLAYER_FRIENDSHIP_POINTS current Marnie 500"
+                },
+                "QLR_BowlofCreamSeeds": {
+                    "Id": "QLR_BowlofCreamSeeds",
+                    "ItemId": "(O)QLR_BowlofCreamSeeds",
+                    "Price": 80,
+                    "Condition": "SEASON summer, PLAYER_FRIENDSHIP_POINTS current Caroline 1000"
+                },
+                "QLR_DraculaKissBulb": {
+                    "Id": "QLR_DraculaKissBulb",
+                    "ItemId": "(O)QLR_DraculaKissBulb",
+                    "Price": 50,
+                    "Condition": "SEASON fall"
+                },
+                "QLR_FairyFlossBulb": {
+                    "Id": "QLR_FairyFlossBulb",
+                    "ItemId": "(O)QLR_FairyFlossBulb",
+                    "Price": 30,
+                    "Condition": "SEASON summer fall, YEAR 2"
+                },
+                "QLR_FairyIrisBulb": {
+                    "Id": "QLR_FairyIrisBulb",
+                    "ItemId": "(O)QLR_FairyIrisBulb",
+                    "Price": 50,
+                    "Condition": "SEASON spring fall, PLAYER_FRIENDSHIP_POINTS current Jas 500"
+                },
+                "QLR_GemSeaBulb": {
+                    "Id": "QLR_GemSeaBulb",
+                    "ItemId": "(O)QLR_GemSeaBulb",
+                    "Price": 50,
+                    "Condition": "SEASON summer, YEAR 2"
+                },
+                "QLR_GoldenBearSeeds": {
+                    "Id": "QLR_GoldenBearSeeds",
+                    "ItemId": "(O)QLR_GoldenBearSeeds",
+                    "Price": 300,
+                    "Condition": "SEASON summer, YEAR 3"
+                },
+                "QLR_GoldenSplendorBulb": {
+                    "Id": "QLR_GoldenSplendorBulb",
+                    "ItemId": "(O)QLR_GoldenSplendorBulb",
+                    "Price": 70,
+                    "Condition": "SEASON summer"
+                },
+                "QLR_GreenRoseSeeds": {
+                    "Id": "QLR_GreenRoseSeeds",
+                    "ItemId": "(O)QLR_GreenRoseSeeds",
+                    "Price": 70,
+                    "Condition": "SEASON fall, PLAYER_FRIENDSHIP_POINTS current Leah 1000"
+                },
+                "QLR_GypsyCharmerSeeds": {
+                    "Id": "QLR_GypsyCharmerSeeds",
+                    "ItemId": "(O)QLR_GypsyCharmerSeeds",
+                    "Price": 200,
+                    "Condition": "SEASON summer fall, PLAYER_FRIENDSHIP_POINTS current Haley 1000"
+                },
+                "QLR_LittleTigerSeeds": {
+                    "Id": "QLR_LittleTigerSeeds",
+                    "ItemId": "(O)QLR_LittleTigerSeeds",
+                    "Price": 225,
+                    "Condition": "SEASON summer fall, PLAYER_FRIENDSHIP_POINTS current Haley 1500"
+                },
+                "QLR_OsiriaRoseSeeds": {
+                    "Id": "QLR_OsiriaRoseSeeds",
+                    "ItemId": "(O)QLR_OsiriaRoseSeeds",
+                    "Price": 600,
+                    "Condition": "SEASON fall, YEAR 3"
+                },
+                "QLR_PeacockIrisBulb": {
+                    "Id": "QLR_PeacockIrisBulb",
+                    "ItemId": "(O)QLR_PeacockIrisBulb",
+                    "Price": 40,
+                    "Condition": "SEASON winter"
+                },
+                "QLR_PinkDamaskSeeds": {
+                    "Id": "QLR_PinkDamaskSeeds",
+                    "ItemId": "(O)QLR_PinkDamaskSeeds",
+                    "Price": 300,
+                    "Condition": "SEASON summer"
+                },
+                "QLR_PinkParfaitBulb": {
+                    "Id": "QLR_PinkParfaitBulb",
+                    "ItemId": "(O)QLR_PinkParfaitBulb",
+                    "Price": 60,
+                    "Condition": "SEASON summer, YEAR 3"
+                },
+                "QLR_PomponellaSeeds": {
+                    "Id": "QLR_PomponellaSeeds",
+                    "ItemId": "(O)QLR_PomponellaSeeds",
+                    "Price": 500,
+                    "Condition": "SEASON spring summer, PLAYER_FRIENDSHIP_POINTS current Clint 2000"
+                },
+                "QLR_RainbowSorbetSeeds": {
+                    "Id": "QLR_RainbowSorbetSeeds",
+                    "ItemId": "(O)QLR_RainbowSorbetSeeds",
+                    "Price": 300,
+                    "Condition": "SEASON  summer, YEAR 2"
+                },
+                "QLR_RainbowTailSeeds": {
+                    "Id": "QLR_RainbowTailSeeds",
+                    "ItemId": "(O)QLR_RainbowTailSeeds",
+                    "Price": 45,
+                    "Condition": "SEASON  summer, YEAR 3"
+                },
+                "QLR_RegalLilyBulb": {
+                    "Id": "QLR_RegalLilyBulb",
+                    "ItemId": "(O)QLR_RegalLilyBulb",
+                    "Price": 75,
+                    "Condition": "SEASON  summer, YEAR 2"
+                },
+                "QLR_RoccoDahliaBulb": {
+                    "Id": "QLR_RoccoDahliaBulb",
+                    "ItemId": "(O)QLR_RoccoDahliaBulb",
+                    "Price": 30,
+                    "Condition": "SEASON summer fall"
+                },
+                "QLR_StarburstSeeds": {
+                    "Id": "QLR_StarburstSeeds",
+                    "ItemId": "(O)QLR_StarburstSeeds",
+                    "Price": 250,
+                    "Condition": "SEASON summer fall, YEAR 2"
+                },
+                "QLR_SunrichLimeSeeds": {
+                    "Id": "QLR_SunrichLimeSeeds",
+                    "ItemId": "(O)QLR_SunrichLimeSeeds",
+                    "Price": 225,
+                    "Condition": "SEASON summer fall"
+                },
+                "QLR_SweetMusetteBulb": {
+                    "Id": "QLR_SweetMusetteBulb",
+                    "ItemId": "(O)QLR_SweetMusetteBulb",
+                    "Price": 55,
+                    "Condition": "SEASON summer, PLAYER_FRIENDSHIP_POINTS current Penny 1500"
+                },
+                "QLR_TeddyBearSeeds": {
+                    "Id": "QLR_TeddyBearSeeds",
+                    "ItemId": "(O)QLR_TeddyBearSeeds",
+                    "Price": 250,
+                    "Condition": "SEASON summer fall"
+                },
+                "QLR_TigerLilyBulb": {
+                    "Id": "QLR_TigerLilyBulb",
+                    "ItemId": "(O)QLR_TigerLilyBulb",
+                    "Price": 60,
+                    "Condition": "SEASON summer, YEAR 2"
+                }
+            },
+            "MoveEntries": [
+        //Spring
+            { "Id": "QLR_BluemireBelleSeeds", "AfterId": "(O)427" },
+            { "Id": "QLR_FairyIrisBulb", "AfterId": "(O)427" },
+            { "Id": "QLR_PomponellaSeeds", "AfterId": "(O)427" },
+        //Summer
+            { "Id": "QLR_BowlofCreamSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_FairyFlossBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_GemSeaBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_GoldenSplendorBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_LittleTigerSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_PinkDamaskSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_PinkParfaitBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_PomponellaSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_RainbowSorbetSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_RainbowTailSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_RegalLilyBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_RoccoDahliaBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_SeagullDahliaBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_StarburstSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_SunrichLimeSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_SweetMusetteBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_TeddyBearSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_TigerLilyBulb", "BeforeId": "(O)302" },
+        //Fall
+            { "Id": "QLR_BlackAmbrosiaBulb", "BeforeId": "(O)299" },
+            { "Id": "QLR_BlackPrinceSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_DraculaKissBulb", "BeforeId": "(O)299" },
+            { "Id": "QLR_FairyFlossBulb", "BeforeId": "(O)299" },
+            { "Id": "QLR_FairyIrisBulb", "BeforeId": "(O)299" },
+            { "Id": "QLR_GreenRoseSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_GypsyCharmerSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_LittleTigerSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_OsiriaRoseSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_RoccoDahliaBulb", "BeforeId": "(O)299" },
+            { "Id": "QLR_StarburstSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_SunrichLimeSeeds", "BeforeId": "(O)299" },
+            { "Id": "QLR_TeddyBearSeeds", "BeforeId": "(O)299" },
+        //Winter
+            { "Id": "QLR_PeacockIrisBulb", "BeforeId": "(O)245" }
+                ]
+        }, 
+        //COMPAT    
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                    "Enable Quaint Living 2 flowers": true
+                    },
+            "Entries": {
+                "QLR_CrownImperialBulb": {
+                    "Id": "QLR_CrownImperialBulb",
+                    "ItemId": "(O)QLR_CrownImperialBulb",
+                    "Price": 40,
+                    "Condition": "SEASON spring, PLAYER_FRIENDSHIP_POINTS current Leah 500"
+                },
+                "QLR_GypsyBeautyBulb": {
+                    "Id": "QLR_GypsyBeautyBulb",
+                    "ItemId": "(O)QLR_GypsyBeautyBulb",
+                    "Price": 40,
+                    "Condition": "SEASON spring, YEAR 2"
+                },
+                "QLR_QueenofBourbonsSeeds": {
+                    "Id": "QLR_QueenofBourbonsSeeds",
+                    "ItemId": "(O)QLR_QueenofBourbonsSeeds",
+                    "Price": 800,
+                    "Condition": "SEASON spring summer, YEAR 3"
+                },
+                "QLR_SeagullDahliaBulb": {
+                    "Id": "QLR_SeagullDahliaBulb",
+                    "ItemId": "(O)QLR_SeagullDahliaBulb",
+                    "Price": 40,
+                    "Condition": "SEASON summer"
+                },
+                "QLR_SeashellPeonySeeds": {
+                    "Id": "QLR_SeashellPeonySeeds",
+                    "ItemId": "(O)QLR_SeashellPeonySeeds",
+                    "Price": 100,
+                    "Condition": "SEASON summer"
+                },
+                "QLR_StargazerLilyBulb": {
+                    "Id": "QLR_StargazerLilyBulb",
+                    "ItemId": "(O)QLR_StargazerLilyBulb",
+                    "Price": 60,
+                    "Condition": "SEASON summer"
+                },
+                "QLR_StripedSquillBulb": {
+                    "Id": "QLR_StripedSquillBulb",
+                    "ItemId": "(O)QLR_StripedSquillBulb",
+                    "Price": 25,
+                    "Condition": "SEASON spring winter, PLAYER_FRIENDSHIP_POINTS current Leah 1000"
+                },
+                "QLR_WhiteGiantBulb": {
+                    "Id": "QLR_WhiteGiantBulb",
+                    "ItemId": "(O)QLR_WhiteGiantBulb",
+                    "Price": 80,
+                    "Condition": "SEASON summer, YEAR 3"
+                }
+            },
+            "MoveEntries": [
+        //Spring
+            { "Id": "QLR_CrownImperialBulb", "AfterId": "(O)427" },
+            { "Id": "QLR_GypsyBeautyBulb", "AfterId": "(O)427" },
+            { "Id": "QLR_QueenofBourbonsSeeds", "AfterId": "(O)427" },
+            { "Id": "QLR_StripedSquillBulb", "AfterId": "(O)427" },
+        //Summer
+            { "Id": "QLR_QueenofBourbonsSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_SeashellPeonySeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_StargazerLilyBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_WhiteGiantBulb", "BeforeId": "(O)302" },
+        //Winter
+            { "Id": "QLR_StripedSquillBulb", "BeforeId": "(O)245" }
+                ] 
+        }, 
+        //COMPAT SEASONAL
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "When": {
+                    "Enable Quaint Living 2 Seasonal Flowers": true
+                    },
+            "Entries": {
+                "QLR_BoraBoraBulb": {
+                    "Id": "QLR_BoraBoraBulb",
+                    "ItemId": "(O)QLR_BoraBoraBulb",
+                    "Price": 35,
+                    "Condition": "SEASON summer"
+                },
+                "QLR_GotoroanIrisBulb": {
+                    "Id": "QLR_GotoroanIrisBulb",
+                    "ItemId": "(O)QLR_GotoroanIrisBulb",
+                    "Price": 45,
+                    "Condition": "SEASON summer fall"
+                },
+                "QLR_LavenderSilkBulb": {
+                    "Id": "QLR_LavenderSilkBulb",
+                    "ItemId": "(O)QLR_LavenderSilkBulb",
+                    "Price": 50,
+                    "Condition": "SEASON spring"
+                },
+                "QLR_RedImperialSeeds": {
+                    "Id": "QLR_RedImperialSeeds",
+                    "ItemId": "(O)QLR_RedImperialSeeds",
+                    "Price": 800,
+                    "Condition": "SEASON summer fall, YEAR 3"
+                },
+                "QLR_SnowballRoseSeeds": {
+                    "Id": "QLR_SnowballRoseSeeds",
+                    "ItemId": "(O)QLR_SnowballRoseSeeds",
+                    "Price": 150,
+                    "Condition": "SEASON spring"
+                },
+                "QLR_TinyBeeBulb": {
+                    "Id": "QLR_TinyBeeBulb",
+                    "ItemId": "(O)QLR_TinyBeeBulb",
+                    "Price": 50,
+                    "Condition": "SEASON summer"
+                }
+            },
+            "MoveEntries": [
+        //Spring
+            { "Id": "QLR_LavenderSilkBulb", "AfterId": "(O)427" },
+            { "Id": "QLR_SnowballRoseSeeds", "AfterId": "(O)427" },
+        //Summer
+            { "Id": "QLR_BoraBoraBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_GotoroanIrisBulb", "BeforeId": "(O)302" },
+            { "Id": "QLR_RedImperialSeeds", "BeforeId": "(O)302" },
+            { "Id": "QLR_TinyBeeBulb", "BeforeId": "(O)302" },
+        //Fall
+            { "Id": "QLR_GotoroanIrisBulb", "BeforeId": "(O)299" },
+            { "Id": "QLR_RedImperialSeeds", "BeforeId": "(O)299" }
+                ]  
+        }, 
+
+
+{
+    "Action": "EditData",
+    "Target": "Data/Shops",
+    "TargetField": [ "Sandy", "Items" ],
+    "Entries": {
+
+//FLOWER CROPS
+        "QLR_KingProteaSeeds": {
+            "Id": "QLR_KingProteaSeeds",
+            "ItemId": "(O)QLR_KingProteaSeeds",
+            "Price": 150,
+            "Condition": "SEASON summer, YEAR 3"
+        },
+        "QLR_PearlTuberoseBulb": {
+                    "Id": "QLR_PearlTuberoseBulb",
+                    "ItemId": "(O)QLR_PearlTuberoseBulb",
+                    "Price": 30,
+                    "Condition": "SEASON summer"
+        },
+        "QLR_QueenProteaSeeds": {
+                    "Id": "QLR_QueenProteaSeeds",
+                    "ItemId": "(O)QLR_QueenProteaSeeds",
+                    "Price": 150,
+                    "Condition": "SEASON  summer, PLAYER_FRIENDSHIP_POINTS current Sandy 1500"
+        },
+    },
+    "MoveEntries": [
+            //Summer
+                { "Id": "QLR_KingProteaSeeds", "AfterId": "(O)494" },
+                { "Id": "QLR_PearlTuberoseBulb", "AfterId": "(O)494" },
+                { "Id": "QLR_QueenProteaSeeds", "AfterId": "(O)494" }
+                
+    ]    
+
+},
+//COMPAT
+{
+    "Action": "EditData",
+    "Target": "Data/Shops",
+    "TargetField": [ "SeedShop", "Items" ],
+    "When": {
+            "Enable Quaint Living 2 flowers": true
+            },
+    "Entries": {
+        "QLR_WhiteJasmineSeeds": {
+            "Id": "QLR_WhiteJasmineSeeds",
+            "ItemId": "(O)QLR_WhiteJasmineSeeds",
+            "Price": 80,
+            "Condition": "SEASON summer, YEAR 3"
+        }
+    },
+    "MoveEntries": [
+            //Summer
+                { "Id": "QLR_WhiteJasmineSeeds", "AfterId": "(O)494" },
+    ]   
+}
+
+   ]
+}
