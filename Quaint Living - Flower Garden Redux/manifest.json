@@ -2,7 +2,7 @@
   "Name": "Quaint Living - Flower Garden Redux",
   "Author": "PlatinumCats and BeepBoop07",
   "Description": "Quaint Living - Flower Garden for 1.6",
-  "Version": "1.2.6",
+  "Version": "1.2.7",
   "MinimumApiVersion": "4.0.0",
   "UniqueID": "PC.QL.FlowerGardenRedux",
    "ContentPackFor": {
@@ -14,5 +14,5 @@
      "IsRequired": true
    }
  ],
- "UpdateKeys": [ "GitHub: Sweet-Defender-Turtle/Quaint-Living-Flower-Garden-Redux" ],
+ "UpdateKeys": [ "GitHub: Sweet-Defender-Turtle/Quaint-Living-Flower-Garden-Redux" ]
 }
